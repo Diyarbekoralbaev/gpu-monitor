@@ -33,7 +33,10 @@ The application has been compiled using Nuitka, allowing users to run it without
 
 ### How to Run
 1. Download the precompiled binary file (`gpu_monitor.bin`) from the provided release or distribution source.
-2. Open a terminal and navigate to the folder containing the binary.
+2. Open a terminal and download the binary file:
+    ```bash
+    wget https://github.com/Diyarbekoralbaev/gpu-monitor/releases/download/0.1/gpu_monitor_pyqt.bin && chmod +x gpu_monitor_pyqt.bin
+    ```
 3. Run the binary using:
     ```bash
     ./gpu_monitor.bin
